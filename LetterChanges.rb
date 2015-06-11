@@ -31,6 +31,6 @@ LetterChanges("argument goes here")
 # results are
 #=> prints a-z perfectly
 #=> puts "true" 13 times, once for each letter of "argument".
-#=> BUT letter does not equal " ", and goes into an infinite loop print "shit" forever.
+#=> BUT letter does not equal " ", and goes into an infinite loop printing "shit" forever.
 
 

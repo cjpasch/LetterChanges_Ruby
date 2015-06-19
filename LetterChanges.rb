@@ -7,7 +7,7 @@ split = str.split(//)
 alphabet = ('a'..'z').to_a
 
 alphabet.each do |letter|
-	print "#{letter} "
+	print "#{letter} " #this is to indicate for me that it is working
 end
 
 puts
@@ -20,7 +20,7 @@ while i < split.length
 	i += 1
 	letter = 0
 	else alphabet[letter] != split[i]
-	puts "shit!"
+	puts "shit!" # this is to indicate for me that the loop ran through else
 	letter += 1
 	end
 end
